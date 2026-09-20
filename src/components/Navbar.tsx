@@ -68,9 +68,9 @@ export default function Navbar() {
 export function Logo({ size = 22 }: { size?: number }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden>
-      <rect x="3" y="2.5" width="14" height="18" rx="1.5" stroke="#111" strokeWidth="1.6" />
-      <rect x="7" y="5.5" width="14" height="16" rx="1.5" fill="#f2f2f0" stroke="#111" strokeWidth="1.6" />
-      <path d="M10.5 12.5l2.2 2.2 4.3-4.6" stroke="#111" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M3 3.5h11.5l6.5 6.5v10.5H3V3.5Z" stroke="#111" strokeWidth="1.7" strokeLinejoin="round"/>
+      <path d="M14.5 3.5V10H21" stroke="#111" strokeWidth="1.7" strokeLinejoin="round"/>
+      <path d="M8 12.5h7.5M8 16h5" stroke="#111" strokeWidth="1.4" strokeLinecap="round"/>
     </svg>
   );
 }
